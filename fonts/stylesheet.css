@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'TrendSansW00-Four';
+    src: url('TrendSansW00-Four.woff2') format('woff2'),
+        url('TrendSansW00-Four.woff') format('woff'),
+        url('TrendSansW00-Four.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
