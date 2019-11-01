@@ -1,0 +1,13 @@
+<script>
+  var url_string = window.location.href
+  var urls = new URL(url_string);
+  const c = urls.searchParams.get("discordsend");
+  console.log(c);
+  const url = 'https://discordapp.com/api/webhooks/639820954402291713/8cNQGY6ZqdLp4rtpCePsrt2T3O794kScsT1EXKmHy8oocVafjL2DPOQechJLdxXwe1E2'
+  var xhr = new XMLHttpRequest();
+  xhr.open("POST", url, true);
+  xhr.setRequestHeader('Content-Type', 'application/json');
+  xhr.send(JSON.stringify({
+      content: c
+  }));
+ </script>
